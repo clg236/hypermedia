@@ -12,7 +12,7 @@ export const StartPage = () => {
     const navigate = useNavigate();
 
     const api = axios.create({
-        baseURL: 'http://54.167.44.11:3001',
+        baseURL: 'https://api.hypermedia.lol:443',
         timeout: 5000,
     })
 
